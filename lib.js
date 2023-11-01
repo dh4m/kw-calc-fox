@@ -5,25 +5,21 @@ function avg(numbers) {
 
 
 function prime(num) {
-	/*
 	if (num < 2)
 		return (false);
 	for (let i = 2; i * i <= num; i++) {
 		if (num % i == 0)
 			return false;
 	}
-	*/ // TODO
-	return false;
+	return true;
 }
 
 function fact(num) {
-	/*
 	let result = 1;
 	for (let i = 2; i <= num; i++) {
 		result *= i;
 	}
-	*/ // TODO
-	return (-1);
+	return (result);
 }
 
 module.exports = {
